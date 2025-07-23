@@ -25,7 +25,7 @@ A Next.js application that fetches and displays LinkedIn profile pictures using 
    ```
 
 4. **Open the application**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+[http://localhost:3000](http://localhost:3000)
 
 ## Environment Variables
 
@@ -41,8 +41,8 @@ This application requires an Enrich Layer API key. See `.env.example` for the re
 
 ## Future Improvements
 
-With more time, I would improve or add the following::
+With more time, I would improve or add the following:
 
-- **TanStack Query Integration**: Add client-side caching, automatic retries, and better state management
 - **Enhanced Error Handling**: More specific error messages and retry mechanisms
 - **Testing**: Unit tests for validation logic and integration tests for API endpoints
+- **Search History**: Keep track of search history, potentially caching responses somehow to avoid duplicate requests.
